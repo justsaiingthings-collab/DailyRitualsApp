@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { AppData, RitualType } from '../types';
-import { ChevronLeftIcon, ChevronRightIcon, ArrowDownTrayIcon } from './icons';
-import { DEFAULT_RITUALS } from '../constants';
+import { AppData, RitualType } from '../types.ts';
+import { ChevronLeftIcon, ChevronRightIcon, ArrowDownTrayIcon } from './icons.tsx';
+import { DEFAULT_RITUALS } from '../constants.ts';
 
 interface CalendarViewProps {
   currentDate: Date;

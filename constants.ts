@@ -1,5 +1,6 @@
 
-import { Ritual, RitualType } from './types';
+
+import { Ritual, RitualType } from './types.ts';
 
 export const DEFAULT_RITUALS: Omit<Ritual, 'completed' | 'value'>[] = [
   { id: 'wake-up', name: 'Wake up time', type: RitualType.Time },

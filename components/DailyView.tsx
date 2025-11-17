@@ -1,7 +1,7 @@
 import React from 'react';
-import { Ritual, RitualType } from '../types';
-import ProgressCircle from './ProgressCircle';
-import { ChevronLeftIcon, ChevronRightIcon, ClockIcon } from './icons';
+import { Ritual, RitualType } from '../types.ts';
+import ProgressCircle from './ProgressCircle.tsx';
+import { ChevronLeftIcon, ChevronRightIcon, ClockIcon } from './icons.tsx';
 
 interface DailyViewProps {
   date: Date;

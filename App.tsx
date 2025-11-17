@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import { AppData, View, Ritual, RitualType } from './types';
-import { DEFAULT_RITUALS } from './constants';
-import DailyView from './components/DailyView';
-import CalendarView from './components/CalendarView';
-import { CalendarIcon, ListBulletIcon, FireIcon } from './components/icons';
+import { AppData, View, Ritual, RitualType } from './types.ts';
+import { DEFAULT_RITUALS } from './constants.ts';
+import DailyView from './components/DailyView.tsx';
+import CalendarView from './components/CalendarView.tsx';
+import { CalendarIcon, ListBulletIcon, FireIcon } from './components/icons.tsx';
 
 // Helper function to format a Date object to 'YYYY-MM-DD'
 const formatDate = (date: Date): string => {
